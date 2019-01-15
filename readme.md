@@ -2,7 +2,7 @@
 
 Folder Structure
 
-![Directory Structure](https://imgur.com/a/oM0Ph67)
+![Directory Structure](https://raw.githubusercontent.com/sarabs3UC/architecture/master/architecture.png)
 
 
 **Module Directory**
