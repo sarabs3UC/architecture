@@ -2,7 +2,7 @@
 
 Folder Structure
 
-![Directory Structure](https://drive.google.com/open?id=1M9RqaadN5fVIKCemnASLYzTAdxMIRrCH  "Directory Structure")
+![Directory Structure](https://drive.google.com/open?id=1M9RqaadN5fVIKCemnASLYzTAdxMIRrCH)
 
 **Module Directory**
 All application modules should go under module directory.
