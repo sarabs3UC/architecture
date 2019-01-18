@@ -1,0 +1,1 @@
+export {default as MyAccountsItem} from './MyAccountsItem.component';

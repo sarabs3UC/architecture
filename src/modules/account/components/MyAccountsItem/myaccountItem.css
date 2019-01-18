@@ -1,0 +1,72 @@
+.myAccount {
+  background: #313047;
+  border-radius: 1.2rem;
+  color: #86859b;
+}
+.myAccount header {
+  padding: 1.5rem;
+  border-bottom: 1px solid #58576d;
+  font-size: 1.5rem;
+  color: #fff;
+}
+.myAccount section {
+  padding: 1.5rem;
+}
+.myAccount__listItem {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.myAccount__listItem.active{
+  color: #fff;
+}
+.myAccount__content {
+}
+.myAccount__actions {
+}
+.myAccount__account-number{
+  margin-bottom: 5px;
+}
+.myAccount__status{
+  font-size: 0.7rem;
+}
+.myAccount__status--available{
+  color: #fff;
+}
+.myAccount__button {
+  border-radius: 1.5rem;
+  background: none;
+  color: #fff;
+  border: none;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.myAccount__button::before{
+  border-radius: 1.5rem;
+}
+.myAccount__button--gradient {
+  position: relative;
+  background-image: linear-gradient(150deg, #ffc3b1, #ff00e9);
+  min-width: 60px;
+  min-height: 24px;
+  z-index: 1;
+}
+.myAccount__button--gradient::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(
+    350deg,
+    #ffc3b1,
+    #ff00e9
+  );
+  z-index: -1;
+  transition: opacity 0.3s linear;
+  opacity: 0;
+}
+.myAccount__button--gradient:hover::before {
+  opacity: 1;
+}

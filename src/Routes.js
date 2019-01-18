@@ -7,6 +7,8 @@ import App from "./components/App";
 import {AuthRoutes, declarations} from './modules/auth/';
 // drivers module
 import {DriversRoutes, DriversDeclarations} from './modules/drivers/';
+// Account module
+import {AccountRoutes, AccountDeclarations} from './modules/account';
 
 const Routes = () => (
   <Switch>
@@ -14,6 +16,7 @@ const Routes = () => (
     <Route path="/page2" component={Page2} />
     <Route path={declarations.ROUTE} component={AuthRoutes} />
     <Route path={DriversDeclarations.ROUTE} component={DriversRoutes} />
+    <Route path={AccountDeclarations.ROUTE} component={AccountRoutes} />
     <Route path="/" component={App} />
   </Switch>
 );

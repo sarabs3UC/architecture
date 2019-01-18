@@ -1,0 +1,11 @@
+.settingsPage{
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+}
+.settingsPage__section{
+    background: #131321;
+    padding: 20px;
+}

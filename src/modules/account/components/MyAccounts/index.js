@@ -1,0 +1,1 @@
+export {default as MyAccounts} from './MyAccounts.component';

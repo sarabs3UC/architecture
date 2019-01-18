@@ -1,0 +1,1 @@
+export {default as MyBills} from './MyBills.component';
